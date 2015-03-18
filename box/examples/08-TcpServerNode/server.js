@@ -18,7 +18,7 @@ server.on('listening', callbackFunctionToCallWhenSocketIsBound);
 server.on('connection', callbackFunctionToCallWhenNewClientHasArrived);
 
 // we are ready, so let's ask the server to start listening on port 9907
-server.listen(4207);
+server.listen(9907);
 
 // This callback method is invoked after the socket has been bound and is in
 // listening mode. We don't need to do anything special.
