@@ -66,3 +66,5 @@ sudo apt-get install maven -y
 # cd /vagrant/sandbox-components/jax-rs/event-api/
 # mvn clean install
 # /opt/glassfish4.1/glassfish/bin/asadmin --user admin --passwordfile /tmp/password.txt deploy target/*.war
+
+echo "echo -e \"\e[100;38;5;226m\"" >> ~/.bashrc
